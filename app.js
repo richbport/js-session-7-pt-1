@@ -10,4 +10,4 @@ const toyBox = {
     }
 }
 
-console.log(toyBox.bigBox.smallBox.toy)
+console.log(toyBox.bigBox.smallBox.tinyBox.toy)
