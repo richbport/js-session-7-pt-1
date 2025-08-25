@@ -4,10 +4,16 @@ const toyBox = [
   ["Yo-Yo", ["Action Figure", "Blocks"]],
 ];
 
-const ZachProfile = {
-  name: "Zach",
-  age: 19,
-  email: "zach19@gmail.com"
-}
 
-console.log(ZachProfile.name)
+// const toyBox = [
+//   ["Car", "Doll"],
+//   ["Ball", "Puzzle"],
+// ];
+
+// for (let list of toyBox) {
+//   for (let toy of list) {
+//     console.log(toy)
+//   }
+// }
+
+// CAR DOLL BALL PUZZLE
