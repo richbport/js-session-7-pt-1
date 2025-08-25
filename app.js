@@ -1,6 +1,8 @@
 const toyBox = {
     bigBox: {
+      toy: "Ball",
         smallBox: {
+          toy: "Doll",
             tinyBox: {
                 toy: "Toy Car"
             }
@@ -8,4 +10,4 @@ const toyBox = {
     }
 }
 
-console.log(toyBox.bigBox.smallBox.tinyBox.toy)
+console.log(toyBox.bigBox.smallBox.toy)
