@@ -21,6 +21,9 @@ for (let list of toyBox) {
 // 2|1 -> ["Ball", "Puzzle"] === list toy === "Ball"
 // 2|2 -> ["Ball", "Puzzle"] === list toy === "Puzzle"
 // 3|1 -> ["Yo-Yo", ["Action Figure", "Blocks"]] === list toy === "Yo-Yo"
+// 3|2 -> ["Yo-Yo", ["Action Figure", "Blocks"]] === list toy === ["Action Figure", "Blocks"]
+// 3|2|1 -> ["Action Figure", "Blocks"] === toy insideToy === "Action Figure"
+// 3|2|2 -> ["Action Figure", "Blocks"] === toy insideToy === "Blocks"
 // 
 
 
