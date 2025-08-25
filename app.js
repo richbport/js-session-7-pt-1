@@ -5,4 +5,3 @@ const toyBox = [
 ];
 
 
-console.log(toyBox.bigBox.smallBox.tinyBox.toy)
