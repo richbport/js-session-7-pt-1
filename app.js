@@ -16,6 +16,13 @@ for (let list of toyBox) {
   }
 }
 
+// 1|1 -> ["Car", "Doll"] === list toy === "Car"
+// 1|2 -> ["Car", "Doll"] === list toy === "Doll"
+// 2|1 -> ["Ball", "Puzzle"] === list toy === "Ball"
+// 2|2 -> ["Ball", "Puzzle"] === list toy === "Puzzle"
+// 3|1 -> ["Yo-Yo", ["Action Figure", "Blocks"]] === list toy === "Yo-Yo"
+// 
+
 
 // const toyBox = [
 //   ["Car", "Doll"],
