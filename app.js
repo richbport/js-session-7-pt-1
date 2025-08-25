@@ -4,6 +4,18 @@ const toyBox = [
   ["Yo-Yo", ["Action Figure", "Blocks"]],
 ];
 
+for (let list of toyBox) {
+  for (let toy of list) {
+    if(Array.isArray(toy)) {
+      for (let insideToy of toy) {
+        console.log(insideToy)
+      }
+    } else {
+      console.log(toy)
+    }
+  }
+}
+
 
 // const toyBox = [
 //   ["Car", "Doll"],
