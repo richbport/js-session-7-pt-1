@@ -1,8 +1,12 @@
 const toyBox = {
-  smallBox: { toys: "Car" },
+  smallBox: { toys: "Toy Car" },
   mediumBox: { toys: "Doll" },
   bigBox: { toys: ["Ball", "Puzzle"] },
 };
+
+for (let box of toyBox) {
+  let item = toyBox[box].toys
+}
 
 // const toyBox = [
 //   ["Car", "Doll"],
