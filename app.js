@@ -4,9 +4,12 @@ const toyBox = {
   bigBox: { toys: ["Ball", "Puzzle"] },
 };
 
-for (let box of toyBox) {
+for (let box in toyBox) {
   let item = toyBox[box].toys
+  console.log(item)
 }
+
+// 1 -> box === smallBox
 
 // const toyBox = [
 //   ["Car", "Doll"],
