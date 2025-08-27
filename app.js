@@ -5,8 +5,14 @@ const toyBox = {
 };
 
 for (let box in toyBox) {
-  let item = toyBox[box].toys
-  console.log(item)
+  let item = toyBox[box].toys;
+  if(Array.isArray(item)) {
+    for (let insideItem of item) {
+      console.log(insideItem)
+    }
+  } else {
+    console.log(item);
+  }
 }
 
 // 1 -> box === smallBox
