@@ -15,7 +15,10 @@ for (let box in toyBox) {
   }
 }
 
-// 1 -> box === smallBox
+// 1 -> box === smallBox item === "Toy Car"
+// 2 -> box === mediumBox item === "Doll"
+// 3 -> box === bigBox item === ["Ball", "Puzzle"]
+
 
 // const toyBox = [
 //   ["Car", "Doll"],
