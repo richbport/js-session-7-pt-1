@@ -6,21 +6,27 @@ const toyBox = {
 
 for (let box in toyBox) {
   let item = toyBox[box].toys;
-  if(Array.isArray(item)) {
+  if (Array.isArray(item)) {
     for (let insideItem of item) {
-      console.log(insideItem)
+      console.log(insideItem);
     }
   } else {
     console.log(item);
   }
 }
 
+const profile = {
+  name: "David",
+  age: 22
+};
+
+const profile2 = ["David", 22]
+
 // 1 -> box === smallBox item === "Toy Car"
 // 2 -> box === mediumBox item === "Doll"
 // 3 -> box === bigBox item === ["Ball", "Puzzle"]
 // 3|1 -> box === bigBox item === ["Ball", "Puzzle"] insideItem === "Ball"
 // 3|2 -> box === bigBox item === ["Ball", "Puzzle"] insideItem === "Puzzle"
-
 
 // const toyBox = [
 //   ["Car", "Doll"],
